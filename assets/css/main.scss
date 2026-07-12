@@ -12,3 +12,16 @@ $doc-font-size-x-large: 17px;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.page__content ol > li {
+  margin-bottom: 1.25em;
+}
+
+.page__content h3 {
+  margin-top: 2.5em;
+}
+
+.page__content .highlight,
+.page__content pre {
+  margin: 1.5em 0;
+}
